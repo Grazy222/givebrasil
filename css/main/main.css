@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&family=Inter:wght@800;900&family=Josefin+Sans:wght@400;700&family=Kablammo&family=Merriweather&family=Nunito&family=Roboto&family=Rubik&display=swap');
+.coqueiro { 
+    background-color: var(--azul);
+}
+
+.coqueiro-banner {/* div coqueiro*/
+    background-image: url('../image/coqueiro.webp');
+    
+    height: 59vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: .6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: rgb(216, 64, 64) 1px 0 10px;
+}
+
+/*---------------------------------------------------Section-banner*/
+
+
+
+/* section-Container cabeçalho*/
+.containerCabecalho{
+    text-shadow: rgb(24, 20, 54) 1px 0 5px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+
+.onFrase{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 28px;
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.twoFrase{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 21px;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* section-apoio*/
+
+.apoio{
+    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.logosParceiros{
+    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
+    background-color: #7BCFF3;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+h4{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: #7BCFF3;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 55px;
+
+}
+.agradecimento{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    text-shadow: rgb(46, 71, 53) 2px 0 5px;
+}
+
+/*Section-- impacto*/
+.impacto { 
+   
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+   
+}
+
+
+.nossoImpacto{
+    border-radius: 30px;
+    width: 50vw;
+    height: 40vh;
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+    
+}
+h4{
+    color: white;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 55px;
+
+}
+.botaoApoio, .btn3 {
+    width: 12vw;
+    height: 6vh;
+    border: none;
+    font-family: "Montserrat", Sans-serif;
+    background-color: rgb(59, 218, 38);
+    color: #fff;
+    border-radius: 5%;
+    
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoApoio:hover{
+    cursor: pointer;
+}
+/* section Cards-----------*/
+.meusCards{
+    background-image: linear-gradient(180deg, #7BCFF3 0%, #F9FDFF 100%);
+    display: flex;
+    align-items: center;
+    width: 64vw;
+    height: 78vh;
+    margin-left: 18%;
+
+}
+
+/* .card1 {
+    
+    width: 43vw;
+    height: 40vh;
+    background-color: #7BCFF3;
+    border-radius: 15%;
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+ 
+} */
+.image-container {
+    width: 15vw;
+    height: 37vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image1{
+    width: 14vw;
+    height: 29vh;
+    border-radius: 5%;
+}
+
+div.caption {
+   
+    width: 79%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+
+}
+  
+  .image-container:hover .caption {
+    opacity: 1;
+}
+.primeiroCards{
+    position: relative;
+    display: inline-block;
+    
+   
+    width: 57vw;
+    height: 35vh;
+}
+.segundosCards{
+    display: flex;
+    align-items: center;
+    
+    width: 57vw;
+    height: 35vh;
+ 
+}
+h3{
+    width: 97%;
+    height: 10%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+}
+/* .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(28, 135, 223);
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  } */
+
+/*-------------------------------------Nossos propositos*/ 
+section.versiculo{
+    width: 50%;
+    height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    text-align: center;
+   
+    
+
+}
+p.colossenses{
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 25px;
+   text-align: center;
+   
+   text-shadow: rgb(0, 0, 0) 1px 0 5px;
+
+}
+
+/* video*/
+.video{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+}
+.explicacaoVideo{
+    color: #1613e4;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    
+}
+/* section--- depoimentos*/
+.redesSociais{
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    
+   
+}
+
+
+.contenerSocial{
+    width: 45vw;
+    height: 21vh;
+    display: flex;
+   flex-direction: column; 
+
+}
+.container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.ultimoVersiculo{
+    font-family: 'Courier New', Courier, monospace;
+    height: 14vh;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    text-shadow: rgb(0, 0, 0) 1px 0 3px;
+}
+
+.depoimentosApoio{
+    border-radius: 50px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    
+
+
+}
+.content{
+text-align: center;
+}
+

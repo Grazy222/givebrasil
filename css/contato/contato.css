@@ -1,0 +1,88 @@
+@import url('../header.css/header.css');
+@import url('../foorter/footer.css');
+
+
+.sessaoContact{
+    height: 100%;
+    display: flex;
+}
+.contatoMain{
+    width: 47vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tituloContato{
+    text-shadow: rgb(16, 16, 27) 1px 0 3px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input,
+  textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+.nossosContatos{
+    width: 58vw;
+    height: 72vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.mensagem{
+    width: 47%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.imagenContato{
+    width: 42%;
+    
+
+
+}
+.contenerCont{
+    display: flex;
+}
+.imagemCarta{
+    width: 6%;
+   
+}
+
+a{
+    font-family: 'fantasy';
+
+}
+.imagemTelefone{
+    width: 6%;
+    
+}
+.ligar{
+    width: 14em;
+}
