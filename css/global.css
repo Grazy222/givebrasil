@@ -1,9 +1,10 @@
 @import url('../css/header.css/header.css');
 @import url('./main/main.css');
-@import url('./foorter/footer.css');
+@import url('../css/foorter/footer.css');
 @import url('./contato/contato.css');
 @import url('./localizacao/local.css');
 @import url('./sobre/sobre.css');
+@import url('./programa/programa.css');
 
 
 

@@ -16,59 +16,60 @@
     </title>
 </head>
 <body>
-    
     <header>
-        <div class="banner"></div>
-            <div class="botao"> 
+        <div class="banner">
+        </div>
+        <div class="botao"> 
             <button class="doacao">
-            <a class="btn1" href="https://crm.bloomerang.co/HostedDonation?ApiKey=pub_51af8fc9-e8d1-11eb-9331-02bc695e0cd7&WidgetId=26624" target="_blank">  DOE AQUI </a>
+                <a class="btn1" href="https://crm.bloomerang.co/HostedDonation?ApiKey=pub_51af8fc9-e8d1-11eb-9331-02bc695e0cd7&WidgetId=26624" target="_blank">  DOE AQUI </a>
             </button>
-            <button class="SeVoluntario" > 
-            <a class="btn2" href="https://docs.google.com/forms/d/e/1FAIpQLScyf_8FdHFEHZqKmOeC0GTh_NDrR7XNb7dzo9FVhH6gfus8cg/viewform?pli=1"> INSCREVA-SE COMO NOVO VOLUNTÁRIO </a>
+            <button class="seVoluntario"> 
+                <a class="btn2" href="https://docs.google.com/forms/d/e/1FAIpQLScyf_8FdHFEHZqKmOeC0GTh_NDrR7XNb7dzo9FVhH6gfus8cg/viewform?pli=1"> INSCREVA-SE COMO NOVO VOLUNTÁRIO </a>
             </button>
-            </div>
-        <nav class="menu">
-            <ul>
-                <li><a class="home" href="../../index.html">Lar</a></li>
-                <li><a class="home" href="../sobre/sobre.html">Sobre nós</a></li>
-                <li><a class="home" href="../programa/programa.html">Programa</a></li>
-                <li><a class="home" href="../localizacao/local.html">Localização</a></li>
-                <li><a class="home" href="../contato/contatos.html">Contate-nos</a></li>
-                
-            </ul>
-        </nav>
+        </div>
+            <nav class="menu">
+                <div class="navbar">
+                    <div class="menu-icon" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <ul class="nav-list" id="navList">
+                        <li><a class="home" href="../../index.html" onclick="showInfo('home')">Home</a></li>
+                        <li><a class="home" href="../sobre/sobre.html" onclick="showInfo('sobre')"> Sobre nós</a></li>
+                        <li><a class="home" href="../programa/programa.html" onclick="showInfo('programa')">Programa</a></li>
+                        <li><a class="home" href="../localizacao/local.html" onclick="showInfo('localizacao')">Localização</a></li>
+                        <li><a class="home" href="../contato/contatos.html" onclick="showInfo('contato')">Contate-nos</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
-        <main>
+        <main id="contato">
+            <h2 class="tituloContato">Nos mande mensagem</h2>
             <section class="sessaoContact">
                 <div class="contatoMain">
-                    <h2 class="tituloContato">Nos mande mensagem</h2>
-                
                     <form action="enviarEmail" method="post">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" required>
-
-                        <label for="email" >E-mail:</label>
-                        <input type="email" id="email" name="email" required>
-                    
-                        <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" name="mensagem" required></textarea>
-
-                        <input type="submit" value="Enviar">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required>
+                    <label for="email" >E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <input type="submit" value="Enviar">
                     </form>
                 </div>
                 <div class="mensagem">
                     <img  class="imagenContato" src="https://i0.wp.com/givebackcommunity.org/wp-content/uploads/2022/08/contact-us-giveback.jpeg?resize=1024%2C682&ssl=1" alt="imagem" />
+                        <div class="contenerCont"> 
+                            <h3 class="descricao-contato">Nossos Contatos:</h3>
+                            <img class="imagemCarta" src="./message.png" alt="carta"/> 
+                            <a class="email" href="#">ashtyn@thegivebackcommunity.org </a>
+                            <img class="imagemTelefone" src="./call-back.png" alt="telefone" />
+                            <p class="ligar"> Ligue para nós 561-801-3755</p>
+                        </div>
                     </div>
-                    <div class="contenerCont"> 
-                    <h3>Nossos Contatos:</h3>
-                    <img class="imagemCarta" src="./message.png" alt="carta"/> 
-                    <a href="http://">ashtyn@thegivebackcommunity.org </a>
-                 
-                    <img class="imagemTelefone" src="./call-back.png" alt="telefone" />
-                    <p class="ligar"> Ligue para nós 561-801-3755</p>
-                </div>
-            </section>
-        </main>
+                </section>
+            </main>
         <footer>
             <div class="logo">  
                 <img  class="logoImage" src="../image/logo.webp" alt="logo"/> 

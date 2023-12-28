@@ -27,11 +27,11 @@ h2{
   }
   
 .image-container {
-    width: 27vw;
-    height: 55vh;
+    
+    height: 52vh;
     background-color: #ffff;
     display: flex;
-    border-radius: 15%;
+    border-radius: 8%;
     margin: 1em;
   }
   

@@ -16,36 +16,41 @@
     </title>
 </head>
 <body>
-    
     <header>
         <div class="banner"></div>
             <div class="botao"> 
-            <button class="doacao">
-            <a class="btn1" href="https://crm.bloomerang.co/HostedDonation?ApiKey=pub_51af8fc9-e8d1-11eb-9331-02bc695e0cd7&WidgetId=26624" target="_blank">  DOE AQUI </a>
-            </button>
-            <button class="SeVoluntario" > 
-            <a class="btn2" href="https://docs.google.com/forms/d/e/1FAIpQLScyf_8FdHFEHZqKmOeC0GTh_NDrR7XNb7dzo9FVhH6gfus8cg/viewform?pli=1"> INSCREVA-SE COMO NOVO VOLUNTÁRIO </a>
-            </button>
+                <button class="doacao">
+                    <a class="btn1" href="https://crm.bloomerang.co/HostedDonation?ApiKey=pub_51af8fc9-e8d1-11eb-9331-02bc695e0cd7&WidgetId=26624" target="_blank">  DOE AQUI </a>
+                </button>
+                <button class="seVoluntario"> 
+                    <a class="btn2" href="https://docs.google.com/forms/d/e/1FAIpQLScyf_8FdHFEHZqKmOeC0GTh_NDrR7XNb7dzo9FVhH6gfus8cg/viewform?pli=1"> INSCREVA-SE COMO NOVO VOLUNTÁRIO </a>
+                </button>
             </div>
-        <nav class="menu">
-            <ul>
-                <li><a class="home" href="../../index.html">Lar</a></li>
-                <li><a class="home" href="../sobre/sobre.html">Sobre nós</a></li>
-                <li><a class="home" href="../programa/programa.html">Programa</a></li>
-                <li><a class="home" href="../localizacao/local.html">Localização</a></li>
-                <li><a class="home" href="../contato/contatos.html">Contate-nos</a></li>
+            <nav class="menu">
+                <div class="navbar">
+                    <div class="menu-icon" onclick="toggleMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
                 
-            </ul>
-        </nav>
+                <ul class="nav-list" id="navList">
+                    <li><a class="home" href="../../index.html" onclick="showInfo('home')">Home</a></li>
+                    <li><a class="home" href="../sobre/sobre.html" onclick="showInfo('sobre')"> Sobre nós</a></li>
+                    <li><a class="home" href="../programa/programa.html" onclick="showInfo('programa')">Programa</a></li>
+                    <li><a class="home" href="../localizacao/local.html" onclick="showInfo('localizacao')">Localização</a></li>
+                    <li><a class="home" href="../contato/contatos.html" onclick="showInfo('contato')">Contate-nos</a></li>
+                </ul>
+            </nav>
         </header>
-        <main>
-            <section>
-                <div>
-                    <h2>Devolva a Escola</h2>
+        <main class="mainPrograma">
+            <section class="sessaoPrograma">
+                <div class="caixaEscola">
+                    <h2 class="subtituloProgama">Devolva a Escola</h2>
                     <a href="https://www.flaticon.com/br/icones-gratis/escola" title="escola ícones">Escola ícones criados por kornkun - Flaticon</a>
                 </div>
-                <div>
-                    <p>Fornecer educação diária e orientação a crianças carentes.
+                <div class="descricaoEscola">
+                    <p class="textoEscola">Fornecer educação diária e orientação a crianças carentes.
                         Como uma extensão do nosso programa Give Back Kids, a The Give Back Community 
                         está patrocinando integralmente uma escola com mais de 50 crianças no Rio de Janeiro. 
                         Através de nossas doações, podemos fornecer educadores e materiais didáticos em tempo integral 
@@ -54,16 +59,16 @@
                         </p>
                 </div>
                 <figure>
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <img src="./cards/professoraDandoProva.jpg" alt="" />
+                    <img src="./cards/aulaArtes.jpg" alt="" />
+                    <img src="./cards/ProfessorCapoeira.jpg" alt="" />
+                    <img src="./cards/salaDeAula.jpg" alt="" />
                 </figure>
                 
             </section>
-            <section>
-                <div>
-                    <h2>Dia de Jogo</h2>
+            <section class="sessaoJogo">
+                <div class="caixaJogo">
+                    <h2 class="subtituloJogo">Dia de Jogo</h2>
                     <a href="https://www.flaticon.com/br/icones-gratis/integridade" title="integridade ícones">Integridade ícones criados por Freepik - Flaticon</a>
                 </div>
                 <div>

@@ -1,2 +1,21 @@
 @import url('../header.css/header.css');
 @import url('../foorter/footer.css');
+
+.mainPrograma{
+    height: 100vh;
+}
+.sessaoPrograma{
+    height: 50%;
+}
+.caixaEscola{
+    text-align: center;
+    border: solid;
+}
+figure{
+    border: solid green;
+}
+@media  (max-width:750px) {
+
+
+    
+}

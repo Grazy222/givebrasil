@@ -174,8 +174,7 @@ h4{
     flex-direction: column;
 }
 .image1{
-    width: 14vw;
-    height: 29vh;
+    width: 81%;
     border-radius: 5%;
 }
 
@@ -213,8 +212,8 @@ div.caption {
  
 }
 h3{
-    width: 97%;
-    height: 10%;
+   
+    font-size: 13px;
     margin: 5%;
     display: flex;
     align-items: center;

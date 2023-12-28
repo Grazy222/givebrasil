@@ -23,3 +23,4 @@ function showInfo(infoId) {
   var navList = document.getElementById("navList");
   navList.classList.remove("show");
 }
+/*fecha header */

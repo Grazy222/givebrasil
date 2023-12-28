@@ -10,20 +10,17 @@ header {
 }
 .banner {
     background-image: url('../image/banner.jpg');
-     background-size: 50%;
-     background-repeat: no-repeat;
-     background-position: center;
-     position: relative;
-     height: 96vh;
-     width: 58%;
-     display: flex;
+    background-size: 50% 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 96vh;
+    width: 58%;
+    display: flex;
      
  }
 div.botao{
-  
-    
     width: 58vw;
-    height: 17vh;
+    height: 22vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,24 +29,24 @@ div.botao{
 }
 .doacao{
     background-color: rgb(94, 218, 94);
-    width: 8vw;
-    height: 6vh;
+    width: 15%;
+    height: 68%;
     color: white;
     border: none;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif;
+    font-size: 11px;
 }
 
 .doacao :hover{
   cursor: pointer;  
 
 }
-.SeVoluntario{
+.seVoluntario{
     background-color: rgb(94, 218, 94);
-    width: 11vw;
-    height: 6vh;
+    width: 28%;
+    height: 82%;
     border: none;
     border-radius: 6px;
     display: flex;
@@ -58,7 +55,7 @@ div.botao{
 
 }
 .btn1 {
-    width: 11em;
+    height: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,49 +64,203 @@ div.botao{
     
 }
 .btn2{
-    width: 14em;
-    display: flex;
+    width: 64%;
+    font-size: 11px;
+    height: 85%;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     
 }
-
-
 .menu {
     background-color: white;
     width: 100%;
-    height: 24vh;
+    height: 26vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-
-.menu ul {
+.navbar{
+    width: 10%;
+    height: 9vh;
+    padding: 6px;
     display: flex;
     justify-content: space-between;
-    width: 70vw;
 }
-
-.menu  li {
-    width: 9vw;
-    height: 5vh;
+.menu-icon{
+    cursor: pointer;
+    
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: space-between;
+    /*width: 70vw;*/
+}
+.nav-list li {
+    margin-right: 15px;
+    width: 11vw;
+    height: 7vh;
     margin-left: 3px;
 }
-li:hover{
-    width: 8vw;
-    height: 8vh;
+.nav-list a {
+    width: 10em;
+    height: 72%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+nav-list li:hover{
+    width: 40%;
+    height: 60%;
     cursor:alias;
     background-color: red;
     color: aliceblue;
 }
 
-a .home {
-    width: 10vw;
-    color: black;
+.menu-icon{
+    cursor: pointer;
+    
 }
+.bar{
+    width: 25px;
+    height: 3px;
+    background-color: azure;
+    margin: 6px 0;
+}
+
+
+
+@media (max-width: 1024px){
+
+}
+
+
+
+
+@media (max-width: 800px) {
+    header {
+        width: 100%;
+        height: 54vh;
+        
+        }
+    .menu-icon{
+        display: block;
+    }
+    .nav-list{
+        
+        flex-direction: column;
+        position: absolute;
+        top: 53px;
+        left: 23px;
+        background-color: black;
+        
+    }
+     li {
+        height: 7vh;
+        width: 16vw;
+
+    }
+
+    .menu ul{
+        width: 24vw;
+    }
+    .banner{
+     background-size: 86% ;
+        
+       
+    }
+    .doacao {
+        width: 32%;
+        height: 40%;
+        
+        
+    }
+  
+    div.botao{
+        
+        height: 59vh;
+        flex-direction: column;
+        
+
+    }
+    .seVoluntario{
+        width: 57%;
+        height: 40%;
+        
+    }
+    .btn1,btn2{
+        justify-content: center;
+    }
+    .btn2{
+        width: 75%;
+        height: 60%;
+    }
+    .menu{
+        height: 29vh;
+        padding: 10px 20px 10px 20px;
+        border: solid forestgreen;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        display: none;
+        
+    }
+    .ul{
+        height: 20%;
+    }
+    .li{
+        height: 5%;
+    }
+    a{
+        width: 10%;
+        height: 10%;
+    }
+
+  }
