@@ -2,13 +2,13 @@
 
 
 footer {
-    height: 26vh;
-    display: flex;
-    background-color: var(--azul);
+   background-color: var(--azul);
 }
-.logo{
-    width: 13%;
-    height: 20%;
+div.logo{
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+
     
 }
 /*.logo{
@@ -20,10 +20,12 @@ footer {
    
 }*/
 .logoImage{
-   
-    height: 13%;
-    animation: spin 3s linear infinite;
-    /* animation: rotate 2s linear infinite; */
+   width: 7vw;
+    height: 14vh;
+    margin: 5px;
+    padding: 3px;
+   /* animation: spin 3s linear infinite;*/
+    animation: rotate 2s linear infinite; 
 }
 @keyframes spin {
     0% {
@@ -34,71 +36,79 @@ footer {
     }
   }
 .navFooter{
-    width: 90%;
-    height: 9vh;
+    height: 6vh;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     
+   
+  
 }
 .ContainerFooter{
-    width: 62%;
-    display: flex;
     
+    display: flex;
     
 }
 
 .rede{
     width: 4vw;
-    height: 7vh;
-    
-    
+    height: 5vh;
     
 }
 .social{
-    font-size: 22px;
-
+    width: 15%;
+    height: 46%;
+    font-size: 15px;
+    
 }
 .face,
 .insta,
 .you,
 .in{
-    width: 3vw;
+    width: 4vw;
     
+}
+.textFooter{
+    height: 34%;
     
 
 }
 
-
 .copyright{
    
-    
+    font-size: 12px ;
+    text-align: center;
+}
+.data{
+    width: 100%;
+    font-size: 12px;
+    text-align:center;
 }
 
 @media (max-width: 750px) {
     footer{
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: solid blue;
+        
     }
-    div.logo{
-        width: 100%;
-        height:100%;
-        flex-direction: column;
-        justify-content: center;
-        border: solid;
-    }
+   
     .logoImage{
         width: 10%;
         height: 10%;
     }
     .navFooter{
+        width: 100%;
         height: 10%;
         justify-content: center;
+        align-items: center;
     }
     .social{
-        font-size: 18px;
+        width: 30%;
+        color: blue;
+        text-decoration: overline;
+        font-size: 16px;
+        
     }
     .reder{
         width: 15%;
@@ -108,4 +118,44 @@ footer {
         height: 10%;
         font-size: 15px;
     }
+    .data{
+      font-size: 15px;  
+    }
+}
+
+@media (max-width: 1024px) {
+   .logoImage{
+    width: 11vw;
+    height: 10vh;
+   }
+   .ContainerFooter{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   }
+   div.logo{
+    width: 24%;
+    height: 75%;
+
+   }
+   .social{
+    width: 57%;
+    font-size: 18px;
+   }
+   .face{
+    width: 4vw;
+   }
+   .insta{
+    width:4vw ;
+   }
+   .rede a{
+    width: 6vw;
+    height: 6vh;
+   }
+   .copyrigth{
+    font-size: 14px;
+   }
+   .data{
+    font-size: 14px;
+   } 
 }

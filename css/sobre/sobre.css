@@ -1,9 +1,7 @@
-@import url('../global.css');
+@import url('../header.css/header.css');
+@import url('../foorter/footer.css');
 
-main{
-    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
-    background-color: #7BCFF3;
-}
+
 
 .containerMainSobre{
     width: 100%;
@@ -25,17 +23,17 @@ h2{
     align-items: center;
     justify-content: center;
   }
-  
+/*  
 .image-container {
     
     height: 52vh;
-    background-color: #ffff;
+    
     display: flex;
     border-radius: 8%;
     margin: 1em;
   }
   
-  /* .image-container:last-child {
+   .image-container:last-child {
     border: solid red;
     height: 95%;
   }
@@ -140,82 +138,17 @@ h2{
     height: 10vh;
    
 }
-/* Footer */
 
-footer {
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    flex-wrap:wrap ;
-    flex-direction: column;
-    background-color: var(--azul);
-}
-div.logo{
-    width: 86%;
-    height: 16vh;
-    display: flex;
-    justify-content: flex-start;
-    
+
+
    
    
-}
-.logoImage{
-    display: flex;
-    align-items: flex-end;
-    height: 13vh;
-    animation: spin 3s linear infinite;
-    /* animation: rotate 2s linear infinite; */
-}
-@keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-.navFooter{
-    width: 90%;
-    height: 9vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
-}
-.ContainerFooter{
-    width: 62%;
-    display: flex;
-    
-    
-}
-
-.rede{
-    width: 4vw;
-    height: 7vh;
-    
-    
-    
-}
-.social{
-    font-size: 22px;
-
-}
-.face,
-.insta,
-.you,
-.in{
-    width: 3vw;
-    
-    
-
-}
 
 
-.copyright{
-    height: 5vh;
-    padding: 3px;
-    
-    
 
-    
-}
+
+
+
+
+
+

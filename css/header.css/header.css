@@ -1,26 +1,34 @@
 @import url('../global.css');
 
 header {
-    height: 50vh;
+    height: 48vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #7BCFF3;
     
 }
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .banner {
     background-image: url('../image/banner.jpg');
-    background-size: 50% 125%;
+    background-size: 44% 105%;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 96vh;
-    width: 58%;
+    background-position: center; 
+    height: 38vh;
+    width: 50%;
     display: flex;
+    transform: rotate(360deg); /* Graus de rotação desejados */
+    transition: transform 0.5s ease-out; /* Adiciona uma transição suave */
      
  }
 div.botao{
-    width: 58vw;
-    height: 22vh;
+    width: 56vw;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +54,7 @@ div.botao{
 .seVoluntario{
     background-color: rgb(94, 218, 94);
     width: 28%;
-    height: 82%;
+    height: 67%;
     border: none;
     border-radius: 6px;
     display: flex;
@@ -70,30 +78,22 @@ div.botao{
     color: white;
     
 }
-.menu {
-    background-color: white;
-    width: 100%;
-    height: 26vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu{
+    height: 15vh;
+}
+ a.home{
+    width: 76%;
+    height: 82%;
+}
 
-}
-.navbar{
-    width: 10%;
-    height: 9vh;
-    padding: 6px;
-    display: flex;
-    justify-content: space-between;
-}
-.menu-icon{
+.menu-icon {
+    display: none;
     cursor: pointer;
-    
 }
 .nav-list {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 5px;
     display: flex;
 }
 .nav-list ul {
@@ -104,12 +104,11 @@ div.botao{
 .nav-list li {
     margin-right: 15px;
     width: 11vw;
-    height: 7vh;
-    margin-left: 3px;
+    height: 5vh;
+    
 }
 .nav-list a {
-    width: 10em;
-    height: 72%;
+    
     text-align: center;
     text-decoration: none;
     font-weight: bold;
@@ -123,92 +122,175 @@ nav-list li:hover{
     color: aliceblue;
 }
 
-.menu-icon{
-    cursor: pointer;
-    
-}
 .bar{
-    width: 25px;
-    height: 3px;
+    width: 47%;
     background-color: azure;
-    margin: 6px 0;
+    margin: 4px 3px;
+    height: 3px;
+    border: solid;
 }
-
-
-
-@media (max-width: 1024px){
-
-}
-
-
-
-
-@media (max-width: 800px) {
-    header {
-        width: 100%;
-        height: 54vh;
-        
-        }
-    .menu-icon{
-        display: block;
-    }
-    .nav-list{
-        
-        flex-direction: column;
-        position: absolute;
-        top: 53px;
-        left: 23px;
-        background-color: black;
-        
-    }
-     li {
-        height: 7vh;
-        width: 16vw;
-
-    }
-
-    .menu ul{
-        width: 24vw;
-    }
-    .banner{
-     background-size: 86% ;
-        
+@media screen and (min-width: 768px){
+ 
+    header{
+        height: 90vh;
        
+
     }
-    .doacao {
+
+    .banner{
+        background-size: 100%;
+        width: 67%;
+        height: 75%;
+        
+    }
+        
+    div.botao{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 62%;
+    }
+    .doacao{
         width: 32%;
         height: 40%;
-        
-        
+        font-size: 1em;
+
     }
-  
-    div.botao{
+    .btn1{
         
-        height: 59vh;
-        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .btn2{
+        height: 69%;
+        font-size: 1em;
         
 
     }
     .seVoluntario{
-        width: 57%;
-        height: 40%;
+        width: 75%;
+        height: 42%;
+        font-size: 1em;
+    }
+    .menu-icon{
+        height: 50%;
+        cursor: pointer;
+        font-weight: bold;
+    
+    }
+    .menu ul{
+      width: 97%;  
+    }
+    .nav-list li{
+        width: 18%;
+        height: 22%;
+
+    }
+    .navbar{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
         
     }
-    .btn1,btn2{
+    .bar{
+        width: 70%;
+        height: 7%;
+        margin-left: 6px;
+    }
+    .nav-list{
+        list-style: none;
+        width: 73%;
+        
+       
+      
+    }
+    .nav-list a{
+        text-align: center;
+
+    }
+    
+
+}
+
+@media screen and (max-width: 767px) {
+    header {
+       height: 6vh;
+       padding: 7px 9px 7px 9px;
+                
+    }
+    .banner{   
+        height: 20%; 
+    background-size: 69%;
+    background-position: center;
+     
+    }
+
+    .doacao {
+        width: 31%;
+        height: 40%;
+        text-align: center;
+        
+    }
+    div.botao{
+        height: 91%;
+        flex-direction: column;
+    }
+    .seVoluntario{
+        width: 63%;
+        height:55%;
+        
+    }
+    .btn1{
+        width: 95%;
+        align-items: center;
         justify-content: center;
     }
     .btn2{
         width: 75%;
         height: 60%;
     }
-    .menu{
-        height: 29vh;
-        padding: 10px 20px 10px 20px;
-        border: solid forestgreen;
-    }
-    
+    .navbar{
+    align-items: center;
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
 }
+    .nav-list a {
+    text-decoration: none;
+    color: rgb(45, 15, 214);
+    font-weight: bold;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+.nav-list {
+        display: none;
+        flex-direction: column;
+        width: 29%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+    }
 
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
 
 
 

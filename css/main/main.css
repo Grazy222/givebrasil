@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@600&family=Inter:wght@800;900&family=Josefin+Sans:wght@400;700&family=Kablammo&family=Merriweather&family=Nunito&family=Roboto&family=Rubik&display=swap');
+@import url('../header.css/header.css');
+@import url('../foorter/footer.css');
+
+
 .coqueiro { 
     background-color: var(--azul);
 }
 
 .coqueiro-banner {/* div coqueiro*/
     background-image: url('../image/coqueiro.webp');
-    
     height: 59vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-size: cover;
-    opacity: .6;
+    opacity: 1.3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,118 +24,127 @@
     color: white;
     text-shadow: rgb(216, 64, 64) 1px 0 10px;
 }
+.give{
+    color:#dee5e9;
+    text-decoration: dashed;
+}
+.live{
+    color:#dee5e9;
 
+}
+.caixaParcerias{
+    height: 63%;
+    display: flex;
+    justify-content: space-evenly;
+}
 /*---------------------------------------------------Section-banner*/
 
-
+main{
+    width: 100%;
+    background-color: #d6ebf771;
+    
+}
 
 /* section-Container cabeçalho*/
 .containerCabecalho{
     text-shadow: rgb(24, 20, 54) 1px 0 5px;
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center
-
-}
-
-
-.onFrase{
-    font-family: "Montserrat", Sans-serif;
-    font-size: 28px;
-    
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
-}
-.twoFrase{
-    font-family: "Montserrat", Sans-serif;
-    font-size: 21px;
-    text-align: center;
-    font-size: 28px;
-}
-
-/* section-apoio*/
-
-.apoio{
-    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 25px;
-}
-.logosParceiros{
-    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
-    background-color: #7BCFF3;
-    height: 40vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 20px 0px 20px 0px;
     
 
 }
+.parceria{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
 
-h4{
+
+
+}
+
+.onFrase{
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+   
+    
+   
+}
+.twoFrase{
+    
+    text-align: center;
+    
+}
+
+
+
+.logosParceiros{
+    width: 34%;
+    height: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
+    background-color: #7BCFF3;
+    
+}
+
+.subTituloMain1{
     text-shadow: rgb(0, 0, 0) 1px 0 5px;
     color: #7BCFF3;
     font-family: "Montserrat", Sans-serif;
-    font-size: 55px;
+    font-size: 40px;
 
 }
 .agradecimento{
-    height: 50%;
+    height: 37%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: rgb(46, 71, 53) 2px 0 5px;
 }
-
-/*Section-- impacto*/
-.impacto { 
-   
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-   
-}
-
-
 .nossoImpacto{
-    border-radius: 30px;
-    width: 50vw;
-    height: 40vh;
+    height: 65%;
+    width: 31%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(180deg, #7BCFF3 0%, #dee5e9 100%);
     
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-around;
-    
+   
 }
-h4{
-    color: white;
+.subTituloMain2{
+    text-shadow: rgb(0, 0, 0) 1px 0 5px;
+    color: #7BCFF3;
     font-family: "Montserrat", Sans-serif;
-    font-size: 55px;
+    font-size: 44px;
 
 }
-.botaoApoio, .btn3 {
-    width: 12vw;
-    height: 6vh;
+.botaoApoio {
+    width: 43%;
+    height: 21%;
     border: none;
     font-family: "Montserrat", Sans-serif;
     background-color: rgb(59, 218, 38);
-    color: #fff;
     border-radius: 5%;
+    margin-left: 24px;
     
 }
 .btn3{
+    width: 100%;
+    height: 53%;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,49 +154,47 @@ h4{
 }
 /* section Cards-----------*/
 .meusCards{
+    height: 86vh;
     background-image: linear-gradient(180deg, #7BCFF3 0%, #F9FDFF 100%);
-    display: flex;
-    align-items: center;
-    width: 64vw;
-    height: 78vh;
-    margin-left: 18%;
-
-}
-
-/* .card1 {
-    
-    width: 43vw;
-    height: 40vh;
-    background-color: #7BCFF3;
-    border-radius: 15%;
-    color: white;
-    text-shadow: rgb(0, 0, 0) 1px 0 5px;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 20px;
- 
-} */
-.image-container {
-    width: 15vw;
-    height: 37vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+ 
+.image-container {
+    width: 24%;
+    height: 60%;
+    display: flex;
     flex-direction: column;
+    
 }
 .image1{
-    width: 81%;
+    width: 69%;
+    height: 50%;
     border-radius: 5%;
+}
+.image2{
+    width: 59%;
+    height: 52%;
+    border-radius: 5%;
+    
+
+}
+.image3{
+    width: 63%;
+    height: 52%;
+    border-radius: 5%;
+
 }
 
 div.caption {
    
     width: 79%;
-    height: 15%;
+    height: 20%;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     font-size: 14px;
     text-align: center;
     opacity: 0;
@@ -196,51 +206,34 @@ div.caption {
     opacity: 1;
 }
 .primeiroCards{
-    position: relative;
-    display: inline-block;
-    
-   
-    width: 57vw;
-    height: 35vh;
+    width: 100%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .segundosCards{
     display: flex;
     align-items: center;
-    
     width: 57vw;
     height: 35vh;
  
 }
-h3{
-   
-    font-size: 13px;
-    margin: 5%;
-    display: flex;
-    align-items: center;
+.txtImagens{
+    width: 78%;
+    margin-top: 3%;
+    padding: 2%;
+    font-size: 12px;
     text-shadow: rgb(0, 0, 0) 1px 0 5px;
 }
-/* .caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: rgb(28, 135, 223);
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 0.3s;
-  } */
+
 
 /*-------------------------------------Nossos propositos*/ 
 section.versiculo{
-    width: 50%;
-    height: 24vh;
+    height: 34vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 25%;
     text-align: center;
    
     
@@ -258,7 +251,7 @@ p.colossenses{
 /* video*/
 .video{
     width: 80%;
-    height: 70vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -266,6 +259,7 @@ p.colossenses{
     margin-left: 10%;
 }
 .explicacaoVideo{
+    height: 20%;
     color: #1613e4;
     font-family: "Montserrat", Sans-serif;
     font-size: 40px;
@@ -274,18 +268,19 @@ p.colossenses{
 /* section--- depoimentos*/
 .redesSociais{
     display: flex;
-    height: 25vh;
+    height: 31vh;
     justify-content: center;
+    align-items: center;
     
    
 }
 
 
 .contenerSocial{
-    width: 45vw;
-    height: 21vh;
+    width: 65%;
+    height: 90%;
     display: flex;
-   flex-direction: column; 
+    
 
 }
 .container{
@@ -318,5 +313,154 @@ p.colossenses{
 }
 .content{
 text-align: center;
+}
+@media (max-width: 1024px){
+    .logosParceiros{
+        width: 39%;
+        height: 65%;
+        
+        
+    }
+    .nossoImpacto{
+        width:39%;
+    }
+    .meusCards{
+        width: 100%;
+        height: 80vh;
+        
+    }
+    .primeiroCards{
+        margin-left: 45px;
+        height: 57%;
+
+    }
+    .image1{
+        width: 90%;
+        height: 64%;
+
+    }
+    .image2{
+        width: 74%;
+        height: 100%;
+
+    }
+    .image3{
+        width: 72%;
+        height: 97%;
+
+    }
+    .txtImagens{
+        font-size: 16px;
+        width: 90%;
+        height: 26%;
+
+
+    }
+    div.caption{
+        width: 84%;
+        height: 30%;
+        font-size:16px ;
+    }
+    .image-container{
+        width: 25%;
+        height: 78%;
+    }
+    .colossenses{
+        width: 70%;
+    }
+    .contenerSocial{
+        width: 87%;
+    }
+    .container{
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width: 750px){
+    .containerCabecalho{
+        
+        height: 85vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .parceria{
+        width: 97%;
+        height: 34%;
+        
+    }
+    div.caixaParcerias{
+        width: 64%;
+        height: 74%;
+        
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .logosParceiros,.nossoImpacto{
+        margin: 3%;
+        width: 87%;
+        height: 60%;
+    }
+    .nossoImpacto{
+        width: 87%;
+        height: 60%;
+    }
+    section.meusCards{
+        height: 89%;
+        
+    }
+    .primeiroCards{
+        width: 98%;
+        height: 95%;
+        padding: 15px;
+        
+
+    }
+    .image-container{
+        width: 25%;
+        transition: transform 0.5s ease-in-out;
+    }
+    .image-container:hover .image1{
+        transform: scale(2.5);
+    }
+    .image1{
+        width:89%;
+        height:82%;
+    }
+    .image2{
+        width:83%;
+        height:86%;
+    }
+    .image3{
+        width:73%;
+        height:82%;
+    }
+    .txtImagens{
+        
+        height: 34%;
+        font-size: 16px
+    }
+    div.caption{
+        width: 96%;
+        height: 26%;
+    }
+    .versiculo{
+        width: 100%;
+    }
+    .colossenses{
+        width: 85%;
+        height: 60%;
+        font-size: 12px;
+    }
+    .video{
+        width: 85%;
+       
+    }
+    iframe{
+        width: 750px;
+    }
 }
 

@@ -128,7 +128,7 @@ a.email{
 
 
 @media screen and (max-width: 750px)  {
-    main{
+    main #contato{
         display: flex;
         flex-direction: column;
     }

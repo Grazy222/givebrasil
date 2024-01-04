@@ -21,3 +21,8 @@ function showInfo(infoId) {
   var navList = document.getElementById("navList");
   navList.classList.remove("show");
 }
+
+function toggleMenu(){
+  var navList = document.getElementById("navList");
+  navList.classList.toggle("show");
+}
